@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.neu.edu.pojo.UserUpload" table="user_uploads">
+      <id column="id" name="id">
+          <generator class="increment"/>
+      </id>
+      <property name="fileName" column="FileName" type="string" />
+      <property name="id" column="user_id" type="int" />
+      <property name="path" column="path" type="string" />
+      
+  </class>
+  
+  
+</hibernate-mapping>
